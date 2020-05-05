@@ -1,0 +1,10 @@
+<h1>News Application</h1>
+<div *ngFor="let article of articles">
+    <h2>{{article.title}}</h2>
+    
+     <p>
+     {{article.description}}
+     </p>
+     <img src={{article.urlToImage}}>
+     <a href="{{article.url}}">Read full article</a>
+     </div>
